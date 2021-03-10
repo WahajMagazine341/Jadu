@@ -1,0 +1,32 @@
+git --github--
+
+git init // initialize git repository
+**************************************************
+git add <filename>  //adding files to stagging are
+
+OR
+git add .
+**************************************************
+
+git commit -m "message" //commit changes
+
+
+git remote add origin <remote-repo> //Link a remote repo
+
+git remote -v //to check the path of remote repo
+
+
+//SET UPSTREAM BRANCH 
+git push --set-upstream origin main
+
+git push origin <master> // push code to remote repo
+
+git pull origin <master> // pull code to remote repo
+
+//setting upstream
+
+git branch --set-upstream-to=origin/main
+//once upstream is set, only use 'git pull'
+
+
+QUESTION:

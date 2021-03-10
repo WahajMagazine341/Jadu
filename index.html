@@ -1,246 +1,136 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Jadu Jobs</title>
-    <lik rel="stylesheet" href="./index.css"></lik>
-    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
-    <style>
-        <!--Internal CSS-->
-        html,body  {
-        font-family: century-gothic,sans-serif;
-        
-        }
-        .b
-        {
-        background-color:#292929
-        }
-        
-        li
-        {
-        color:green
-        }
-        p
-        {
-        color:
-        white
-        }
-        #navbar
-        {
-        display:
-        flex;
-        background-color:
-        #138D75;
-        justify-content:
-        space-between;
-        padding-left:15
-        }
-        footer {
-        display:flex;
-        flex-direction:row;
-        background-color:
-        #138D75;
-        justify-content:space-between;
-        color:white;
-        bottom: 0;
-        left: 0;
-        position:relative;
-        width: 100%;
-        
-        }
-        footer>span>a:hover {
-        background-color:rebeccapurple;
-        color:white;
-        }
-        footer>span>a {
-        flex-grow:
-        0.1;
-        color:white;
-        float:
-        right;
-        padding:30;
-        text-decoration:
-        solid;
-        }
-        footer>span>h1 {
-        padding-left:
-        20;
-        }
-        #navbar
-        >
-        div>
-        a
-        {
-        flex-grow:
-        0.1;
-        color:white;
-        float:
-        right;
-        padding:23;
-        text-decoration:
-        solid;
-        }
-        #navbar>
-        div>
-        h2
-        {
-        flex-grow:
-        0.1;
-        Color:white;
-        align-items:
-        flex-start;
-        }
-        #navbar>div>a:hover
-        {
-        background-color:
-        rebeccapurple
-        }
-        .sec
-        {
-        display:
-        flex;
-        justify-content:
-        space-evenly;
-        color:
-        #138D75;
-        padding-top:
-        30;
-        padding-bottom:30;
-        z-index: 1;
-        }
-        .sec
-        >
-        img
-        {
-        align-self:
-        center;
-        
-        }
-        .sec>img:hover
-        {
-        width:
-        30%;
-        height:30%
-        }
-        .profiles
-        {
-        display:
-        flex;
-        flex-direction:
-        column;
-        justify-content:left;
-        color:
-        #138D75;
-        }
-        a
-        {
-        text-decoration:
-        solid;
-        color: white;
-        font-size:
-        large;
-        }
-        a:hover {
-        color:rebeccapurple
-        }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    </link>
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
 
-    </style>
+
+    <title>Project 2</title>
 </head>
 
-<body class="b">
-    <!-- navbar -->
-    
-
-    <nav id="navbar">
-
-        <div id="navname">
-            <h2><em>Muhammad Wahaj Mubeen </em></h2>
+<body>
+    <!--Upper Grid-->
+    <div class="grid-container">
+        <div class="grid-item grid-item-1">
+         <h1>10,000+ of our users love our products</h1>
+            <p><small style="font-weight: 700;">We only provide great products combined with excellent customer service.
+                    See what our satisfied
+                    customers are saying.</small></p>
         </div>
 
-        <div id="navitems">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Talk</a>
-            <a href="#">Blog</a>
+        <div class="grid-item grid-item-2">
+            <div class="rating1">
+                <div class="stars">
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                </div>
+
+                <div class="rated">
+                    <p>Rated 5 Stars in Reviews</p>
+                </div>
+            </div>
+            <div class="rating2" style="margin-left: 40px;">
+                <div class="stars">
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                </div>
+
+                <div class="rated">
+                    <p>Rated 5 Stars in Report Guru</p>
+                </div>
+            </div>
+            <div class="rating3" style="margin-left: 80px;">
+                <div class="stars">
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                    <img src="assets/icon-star.svg" />
+                </div>
+
+                <div class="rated">
+                    <p>Rated 5 Stars in BestTech</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Lower Grid-->
+    <div class="grid-container2">
+        <div class="card">
+
+            <div class="about">
+                <img src="assets/image-colton.jpg" style="border-radius: 50%;" width="50px" />
+                <div>
+                    <p style="color: white; font-weight: 700;">Colton Smith <br />
+                        <text style="color: hsl(333, 80%, 67%); font-weight: 300;">Verified Buyer</text>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="review">
+                <p style="color: white;">"We needed the same printed design as we have ordered a wekk prior.
+                    Not only did they find the original order, but we also received it in time. Excellent! "</p>
+            </div>
+
         </div>
 
-    </nav>
+        <div class="card" style="margin-top: 30px;">
 
-    <hr>
-    <!-- Picture and about me section -->
+            <div class="about">
+                <img src="assets/image-irene.jpg" style="border-radius: 50%;" width="50px" />
+                <div>
+                    <p style="color: white; font-weight: 700;">Irene Roberts<br />
+                        <text style="color: hsl(333, 80%, 67%); font-weight: 300;">Verified Buyer</text>
+                    </p>
+                </div>
 
-    <section class="sec">
+            </div>
 
-        <h1>About ME</h1>
-        <p style="width: 30%;">
+            <div class="review">
+                <p style="color: white;">"Customer service is always excellent and very quick turn around.
+                    Completely delighted with the simplicity of the purchase and the speed of delivery. "</p>
+            </div>
 
-            <imp>I am a software Engineer. I just graduated from Comsats
-                University, Islamabad. Enthusiastic developer eager to lead and
-                contribute through hard work, attention to detail and excellent
-                organization skills. Aiming to get industrial training to opt my
-                future field. I am always motivated to learn and understand new
-                things and adopt to new environments and new teams. As a
-                student of engineering and a programmer, I am a good problem
-                solver
-            </imp>
-        </p>
-
-        <img src="https://scontent.fisb5-1.fna.fbcdn.net/v/t1.0-9/135209721_3575748882512274_7343599318963054764_n.jpg?_nc_cat=107&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeGx7vKOHC8IeJezKARpsZCS_JVw567PsJ78lXDnrs-wnqlz-cGJGvc7IPwFf3leDt3jFDCNVlUl5oZ1Agdxf5ML&_nc_ohc=9_uhwp01llcAX_sK7Ou&_nc_ht=scontent.fisb5-1.fna&oh=954e18832a5467d9db86eb4f7d5f7b0e&oe=60546798"
-            alt="My Picture" width="300" height="300" style="border-radius: 50%;">
-
-    </section>
+        </div>
 
 
-    <hr>
-    <!-- Skills section 
-    <section>
-        <h2>My Skills</h2>
-        <ul>
-            <li><em>React JS</em></li>
-            <li><em>Javascript</em></li>
-            <li><em>Java</em></li>
-            <li><em>HTML 5</em></li>
-            <li><em>CSS</em></li>
-            <li><em>Github</em></li>
-            <li><em>Graphic Design</em></li>
-            <li><em>Video Editor</em></li>
+        <div class="card" style="margin-top: 60px;">
 
-        </ul>
-    </section>-->
+            <div class="about">
+                <img src="assets/image-anne.jpg" style="border-radius: 50%;" width="50px" />
+                <div>
+                    <p style="color: white; font-weight: 700;">Anne Wallace<br />
+                        <text style="color: hsl(333, 80%, 67%); font-weight: 300;">Verified Buyer</text>
+                    </p>
+                </div>
 
- <!-- Profiles section -->
-  
-    <section class="profiles">
-       
-        <h2>Links to my profiles</h2>
-        <ul>
-            <li>
-                <a href="https://iwahajmubeen341.medium.com/">
-                    Medium</a>
-            </li>
-            <li><a href="https://www.fiverr.com/iwahaj">
-                    Fiverr
-                </a></li>
-            <li><a href="https://www.linkedin.com/in/wahajmubeen341/">LinkedIn</a></li>
-            <li><a href="https://twitter.com/wahaj_03">Twitter</a></li>
-        </ul>
+            </div>
 
+            <div class="review">
+                <p style="color: white;">"Put an order with this company and can only praise them
+                    for the very high standard. Will definitely use them again and recommend
+                    them to everyone. "</p>
+            </div>
 
+        </div>
 
+        <div class="grid-item grid-item-1"></div>
+        <div class="grid-item grid-item-1"></div>
+    </div>
 
-    <!--FOOTER ELEMENT-->
-    <footer>
-
-        <span class="f_h1">
-            <h1>Projects</h1>
-        </span>
-
-        <span>
-            <a href="http://shoestore-wahajmubeen.surge.sh/">Shoe Store</a>
-            <a href="http://expensetracker-wahajmubeen.surge.sh/">Expense Tracker</a>
-
-            <a href="http://covid19tracker-wahajmubeen.surge.sh/">Covid Tracker</a></span>
-
-    </footer>
 
 </body>
 
